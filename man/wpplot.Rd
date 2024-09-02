@@ -7,7 +7,7 @@
 wpplot(ID)
 }
 \arguments{
-\item{ID}{ID is wikipathways' ID.}
+\item{ID}{a wikipathways' ID.}
 }
 \value{
 A 'wpplot' object
@@ -16,5 +16,5 @@ A 'wpplot' object
 Use wikipathways ID to open a local svg file. Then extract related information from svg file and build a wpplot class variance.
 }
 \examples{
-wpplot('WP63_117935') 
+wpplot('WP3875') 
 }

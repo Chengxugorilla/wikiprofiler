@@ -47,7 +47,7 @@ svg_halos <- function(svg, pos, gene) {
     ),
     sub(
       "/>",
-      paste(">", gene, "</text>", sep = ""),
+      paste0(">", gene, "</text>"),
       svg[pos - 1]
     )
   )

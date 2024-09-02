@@ -1,2 +1,4 @@
 Makefile
 examples
+^.*\.Rproj$
+^\.Rproj\.user$
